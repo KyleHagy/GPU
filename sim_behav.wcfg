@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_CU_sv " />
+            <top_module name="glbl" />
+            <top_module name="sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1400001fs"></ZoomEndTime>
+      <Cursor1Time time="65000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+      <marker time="635000" label="" />
+      <marker time="703953" label="" />
+   </wave_markers>
+   <wvobject fp_name="/sim/gpu/curr_warp" type="array">
+      <obj_property name="ElementShortName">curr_warp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_warp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU_busy" type="array">
+      <obj_property name="ElementShortName">CU_busy[0:3]</obj_property>
+      <obj_property name="ObjectShortName">CU_busy[0:3]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/reset" type="array">
+      <obj_property name="ElementShortName">reset[0:3]</obj_property>
+      <obj_property name="ObjectShortName">reset[0:3]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/warps" type="array">
+      <obj_property name="ElementShortName">warps[0:5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">warps[0:5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/warpForCU" type="array">
+      <obj_property name="ElementShortName">warpForCU[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">warpForCU[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[0:999][7:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:999][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/warp" type="array">
+      <obj_property name="ElementShortName">warp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">warp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/S_REG_FILE" type="array">
+      <obj_property name="ElementShortName">S_REG_FILE[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_REG_FILE[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE" type="array">
+      <obj_property name="ElementShortName">V_REG_FILE[0:31][0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">V_REG_FILE[0:31][0:31][31:0]</obj_property>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[0]" type="array">
+         <obj_property name="ElementShortName">[0][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[1]" type="array">
+         <obj_property name="ElementShortName">[1][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[5]" type="array">
+         <obj_property name="ElementShortName">[5][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[6]" type="array">
+         <obj_property name="ElementShortName">[6][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[7]" type="array">
+         <obj_property name="ElementShortName">[7][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[8]" type="array">
+         <obj_property name="ElementShortName">[8][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[9]" type="array">
+         <obj_property name="ElementShortName">[9][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[10]" type="array">
+         <obj_property name="ElementShortName">[10][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[11]" type="array">
+         <obj_property name="ElementShortName">[11][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[12]" type="array">
+         <obj_property name="ElementShortName">[12][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[13]" type="array">
+         <obj_property name="ElementShortName">[13][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[14]" type="array">
+         <obj_property name="ElementShortName">[14][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[15]" type="array">
+         <obj_property name="ElementShortName">[15][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[16]" type="array">
+         <obj_property name="ElementShortName">[16][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[17]" type="array">
+         <obj_property name="ElementShortName">[17][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[18]" type="array">
+         <obj_property name="ElementShortName">[18][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[19]" type="array">
+         <obj_property name="ElementShortName">[19][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[20]" type="array">
+         <obj_property name="ElementShortName">[20][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[21]" type="array">
+         <obj_property name="ElementShortName">[21][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[22]" type="array">
+         <obj_property name="ElementShortName">[22][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[23]" type="array">
+         <obj_property name="ElementShortName">[23][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[24]" type="array">
+         <obj_property name="ElementShortName">[24][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[25]" type="array">
+         <obj_property name="ElementShortName">[25][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[26]" type="array">
+         <obj_property name="ElementShortName">[26][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[27]" type="array">
+         <obj_property name="ElementShortName">[27][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[28]" type="array">
+         <obj_property name="ElementShortName">[28][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[29]" type="array">
+         <obj_property name="ElementShortName">[29][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[30]" type="array">
+         <obj_property name="ElementShortName">[30][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[31]" type="array">
+         <obj_property name="ElementShortName">[31][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[0]" type="array">
+         <obj_property name="ElementShortName">[0][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[1]" type="array">
+         <obj_property name="ElementShortName">[1][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[5]" type="array">
+         <obj_property name="ElementShortName">[5][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[6]" type="array">
+         <obj_property name="ElementShortName">[6][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[7]" type="array">
+         <obj_property name="ElementShortName">[7][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[8]" type="array">
+         <obj_property name="ElementShortName">[8][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[9]" type="array">
+         <obj_property name="ElementShortName">[9][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[10]" type="array">
+         <obj_property name="ElementShortName">[10][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[11]" type="array">
+         <obj_property name="ElementShortName">[11][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[12]" type="array">
+         <obj_property name="ElementShortName">[12][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[13]" type="array">
+         <obj_property name="ElementShortName">[13][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[14]" type="array">
+         <obj_property name="ElementShortName">[14][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[15]" type="array">
+         <obj_property name="ElementShortName">[15][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[16]" type="array">
+         <obj_property name="ElementShortName">[16][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[17]" type="array">
+         <obj_property name="ElementShortName">[17][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[18]" type="array">
+         <obj_property name="ElementShortName">[18][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[19]" type="array">
+         <obj_property name="ElementShortName">[19][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[20]" type="array">
+         <obj_property name="ElementShortName">[20][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[21]" type="array">
+         <obj_property name="ElementShortName">[21][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[22]" type="array">
+         <obj_property name="ElementShortName">[22][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[23]" type="array">
+         <obj_property name="ElementShortName">[23][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[24]" type="array">
+         <obj_property name="ElementShortName">[24][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[25]" type="array">
+         <obj_property name="ElementShortName">[25][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[26]" type="array">
+         <obj_property name="ElementShortName">[26][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[27]" type="array">
+         <obj_property name="ElementShortName">[27][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[28]" type="array">
+         <obj_property name="ElementShortName">[28][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[29]" type="array">
+         <obj_property name="ElementShortName">[29][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[30]" type="array">
+         <obj_property name="ElementShortName">[30][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim/gpu/CU1/V_REG_FILE[31]" type="array">
+         <obj_property name="ElementShortName">[31][0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][0:31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU1/STATE" type="array">
+      <obj_property name="ElementShortName">STATE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/gpu/CU0/instr_decoded" type="array">
+      <obj_property name="ElementShortName">instr_decoded</obj_property>
+      <obj_property name="ObjectShortName">instr_decoded</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

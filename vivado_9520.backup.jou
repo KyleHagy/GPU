@@ -1,0 +1,201 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jan 26 08:18:00 2023
+# Process ID: 9520
+# Current directory: C:/Users/Curse/Desktop/GPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1948 C:\Users\Curse\Desktop\GPU\GPU.xpr
+# Log file: C:/Users/Curse/Desktop/GPU/vivado.log
+# Journal file: C:/Users/Curse/Desktop/GPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Curse/Desktop/GPU/GPU.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl

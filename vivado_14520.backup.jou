@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jan 24 23:05:04 2023
+# Process ID: 14520
+# Current directory: C:/Users/Curse/Desktop/GPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18220 C:\Users\Curse\Desktop\GPU\GPU.xpr
+# Log file: C:/Users/Curse/Desktop/GPU/vivado.log
+# Journal file: C:/Users/Curse/Desktop/GPU\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/Curse/Desktop/GPU/GPU.xprupdate_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/Curse/Desktop/GPU/GPU.srcs/sources_1/new/ThreadExecute.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/Curse/Desktop/GPU/GPU.srcs/sources_1/new/ThreadExecute.sv
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl
+close_sim

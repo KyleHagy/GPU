@@ -16,3 +16,9 @@ launch_simulation
 launch_simulation
 open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
 source sim.tcl
+run 1700 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1500 us
+save_wave_config {C:/Users/Curse/Desktop/GPU/sim_behav.wcfg}

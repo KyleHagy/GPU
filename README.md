@@ -6,8 +6,8 @@
 
 To see the final results. Run the simulation first. Then at the top bar, change the simulation to run for 1500us. Then press the "play" icon with "(T)".
 
-[Sim Change](https://github.com/KyleHagy/GPU/blob/master/SimTiming.png)
+![Sim Change](https://github.com/KyleHagy/GPU/blob/master/SimTiming.png)
 
 Output waveform
 
-[waveform](https://github.com/KyleHagy/GPU/blob/master/waveform.png)
+![waveform](https://github.com/KyleHagy/GPU/blob/master/waveform.png)

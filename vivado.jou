@@ -11,3 +11,8 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Curse/Desktop/GPU/GPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Curse/Desktop/GPU/sim_behav.wcfg
+source sim.tcl

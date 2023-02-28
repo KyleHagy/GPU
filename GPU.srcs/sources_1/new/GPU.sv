@@ -286,6 +286,7 @@ module GPU (
     MEM[126] = 8'h80;
     MEM[127] = 8'h00;
     
+        changing = 0;
         for(int i = 999; i > 999-171; i--)
         begin
             if(changing)
@@ -300,6 +301,7 @@ module GPU (
             end
         end
     
+        changing = 0;
         for(int i = 999-171; i > 999-(2*171); i--)
         begin
             if(changing)

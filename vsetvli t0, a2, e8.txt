@@ -1,0 +1,10 @@
+vsetvli t0, a2, e8
+
+a2 = 4096
+e8 = 8bit elements
+
+the vector machine is 128bits wide
+
+so 128/8=16 elements per clk 
+
+so 4096/16 number of times the gpu has to loop over the deata set

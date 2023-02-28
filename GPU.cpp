@@ -275,10 +275,10 @@ __global__ void addVectors(int *a, int *b, int *c, int n)
     int i = blockDim.x * blockIdx.x + threadIdx.x;
     if (i < n)
     {
-        if (a[i] > b[i])
-            c[i] = a[i] + b[i];
+        if (a[i] < b[i])
+            c[i] = b[i] - a[i];
         else
-            c[i] = a[i] - b[i];
+            c[i] = b[i] + a[i];
     }
 }
 
@@ -347,3 +347,73 @@ v1 = branch mask/ if thread is off or on
 size = 50 total threads are going to be used
 then roundup(50/32) = 2 SMs will be on  
 each instruction below is a wave
+
+//for the otter
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+
+    int size = 171;
+    unsigned char a[size];
+    unsigned char b[size];
+    unsigned char c[size];
+    
+    for(int i = 0; i < size; i++)
+    {
+        a[i] = 0;
+        b[i] = 0;
+        c[i] = 0;
+    }
+    
+    int changing = 0;
+    for(int i = 0; i < size; i++)
+    {
+        if(changing)
+        {
+            a[i] = 10;
+            changing=0;
+        }
+        else
+        {
+            a[i] = 30;
+            changing=1;
+        }
+    }
+    
+    changing = 0;
+    for(int i = 0; i < size; i++)
+    {
+        if(changing)
+        {
+            b[i] = 30;
+            changing=0;
+        }
+        else
+        {
+            b[i] = 10;
+            changing=1;
+        }
+    }
+    
+    
+    for(int i = 0; i < size; i++)
+    {
+        if (a[i] < b[i])
+        {
+            c[i] = b[i] - a[i];
+        }
+        else
+        {
+            c[i] = b[i] + a[i];
+        } 
+    }
+    
+    for(int i = 0; i < size; i++)
+    {
+        printf("c[%u]: %u\n", i, c[i]);
+    }
+    
+
+    return 0;
+}

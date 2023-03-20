@@ -110,6 +110,8 @@
     */
 
     //=========================
+    //this is wrong and should be changes so that every bit is inverted
+
     // 0x90e0f0ff sORI s1, s1, 0xFFFFFFFF
     // set all cores high(on) how to set this per SM)
     MEM[52] = 8'h90;
@@ -417,3 +419,44 @@ int main() {
 
     return 0;
 }
+
+
+instructions:
+
+sORI s1, s1, 0xFFFFFFFF
+sADDI s2, s2, 0 
+sORI s1, s1, 0xFFFFFFFF
+sMUL s4, s3, s2 
+vsADD v2, v1, s4
+sADDI s4, s0, 171 
+vsBLTU v2, s4, 0
+vADDI v3, v2, 829
+vADDI v4, v2, 658
+vLD v5, 0(v3)
+vLD v6, 0(v4)
+vBLTU v5, v6, v0
+vSUB v7, v6, v5
+sORI s1, s1, 0xFFFFFFFF
+vsBLTU v2, s4, 0
+vBGEU v5, v6, v0
+vADD v7, v6, v5
+sORI s1, s1, 0xFFFFFFFF
+vsBLTU v2, s4, 0
+vST v7, 0(v3) 
+sORI s1, s1, 0xFFFFFFFF
+EBREAK
+# Warp 2
+sADDI s2, s2, 1 
+sJAL x31, 8
+# Warp 3
+sADDI s2, s2, 2 
+sJAL x31, 8
+# Warp 4
+sADDI s2, s2, 3 
+sJAL x31, 8
+# Warp 5
+sADDI s2, s2, 4 
+sJAL x31, 8
+# Warp 6
+sADDI s2, s2, 5 
+sJAL x31, 8
